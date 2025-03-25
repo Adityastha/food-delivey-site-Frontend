@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "./Home.css";
 import Header from "../../components/Header/Header";
 import OptionsMenu from "../../components/OptionsMenu/OptionsMenu";
+import FoodDisplay from "../../components/FoodDisplay/FoodDisplay";
+import AppDownload from "../../components/AppDownload/AppDownload";
 
 const Home = () => {
   const [category, setCategory] = useState("all");
@@ -9,6 +11,8 @@ const Home = () => {
     <div>
       <Header />
       <OptionsMenu category={category} setCategory={setCategory} />
+      <FoodDisplay category={category} />
+      <AppDownload />
     </div>
   );
 };
