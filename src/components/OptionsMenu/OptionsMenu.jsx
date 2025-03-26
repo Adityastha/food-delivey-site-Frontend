@@ -4,7 +4,7 @@ import { categories } from "../../assets/assets";
 const OptionsMenu = ({ category, setCategory }) => {
   return (
     <div>
-      <div className="options-menu">
+      <div className="options-menu" id="options-menu">
         <h1>What would you like to eat?</h1>
         <p className="options-menu-text">
           Craving something delicious? Explore our menu and find your perfect
