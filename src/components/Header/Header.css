@@ -44,3 +44,56 @@
 .order-button:hover {
   background-color: rgb(232, 183, 183);
 }
+
+@media (max-width: 1300px) {
+  .order-button {
+    right: 21vw;
+  }
+}
+@media (max-width: 1050px) {
+  .header-contents {
+    max-width: 45%;
+  }
+  .header-contents .order-button {
+    right: 22vw;
+  }
+}
+@media (max-width: 900px) {
+  .header-contents p {
+    display: none;
+  }
+  .header-contents .order-button {
+    padding: 2vw 4vw;
+    right: 18vw;
+  }
+}
+@media (max-width: 376px) {
+  .header-contents .order-button {
+    right: 10vw;
+  }
+  .header-contents h2 {
+    font-size: max(4.5vw, 17px);
+  }
+}
+@media (max-width: 415px) {
+  .header-contents .order-button {
+    right: 10vw;
+  }
+  .header-contents h2 {
+    font-size: max(4.5vw, 17px);
+  }
+}
+@media (max-width: 431px) {
+  .header-contents .order-button {
+    right: 10vw;
+  }
+  .header-contents h2 {
+    font-size: max(4.5vw, 17px);
+  }
+}
+@media (max-width: 1025px) {
+  .header-contents p {
+    margin: 0px 18px 0px 0px;
+    text-align: justify;
+  }
+}
