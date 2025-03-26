@@ -6,7 +6,11 @@ const Footer = () => {
     <div className="footer" id="footer">
       <div className="footer-content">
         <div className="footer-content-left">
-          <img src={assets.logo} alt="" className="footer-content-logo" />
+          <a href="#">
+            {" "}
+            <img src={assets.logo} alt="" className="footer-content-logo" />
+          </a>
+
           <p>
             Experience the best feast with AdhiFeast! We bring you quality food,
             fast delivery, and an amazing dining experience.
@@ -21,7 +25,7 @@ const Footer = () => {
           <h2>Explore</h2>
           <ul>
             <li>
-              <a href="/">Home</a>
+              <a href="#home">Home</a>
             </li>
             <li>
               <a href="/about">About Us</a>
