@@ -45,3 +45,9 @@
   padding: 1px;
   border-radius: 50%;
 }
+@media (max-width: 1050px) {
+  .options-menu-text {
+    max-width: 100%;
+    font-size: 14px;
+  }
+}
